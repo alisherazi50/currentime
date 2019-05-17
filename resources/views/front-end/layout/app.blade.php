@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>Currenttime and the world clock</title>
+    <meta name="description" content="CurrentTime is a website to tell the users Current time of world clock. it is very easy to use.">
+    @yield('canonical')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,7 +19,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="{{route('home')}}">Current Time</a>
+    <a class="navbar-brand" href="{{route('home')}}">CurrentTime</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>

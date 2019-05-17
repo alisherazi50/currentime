@@ -1,4 +1,6 @@
 @extends('front-end.layout.app')
+@section('canonical')
+    <link rel="canonical" href="currentime.co/worldclock">@endsection
 @section('content')
     <div class="jumbotron text-center" style="margin-bottom:0">
         <h1>Current Time</h1>
