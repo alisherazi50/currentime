@@ -28,9 +28,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('world.clock')}}">WorldClock</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('contact.us')}}">Contact Us</a>
+            </li>
         </ul>
     </div>
 </nav>
+<div class="alert alert-success">CurrentTime domain is for Sale. if you need this please contact us.</div>
 
 @yield('content')
 

@@ -1,9 +1,9 @@
 @extends('front-end.layout.app')
 @section('canonical')
-    <link rel="canonical" href="currentime.co/">@endsection
+    <link rel="canonical" href="currentime.co">@endsection
 @section('content')
     <div class="jumbotron text-center" style="margin-bottom:0">
-        <h1>Current Time</h1>
+        <h1>CurrentTime</h1>
         <p>
             {{$currentTime->format('l')}}<br>
             <strong>{{$currentTime->format('g:i A')}}</strong><br>

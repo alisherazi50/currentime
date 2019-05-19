@@ -41,4 +41,9 @@ class HomeController extends Controller
         $countries=Country::all();
         return view('front-end.world-clock',compact('countries'));
     }
+    public function contactUs()
+    {
+
+        return view('front-end.contact-us');
+    }
 }
